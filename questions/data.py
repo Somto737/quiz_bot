@@ -247,6 +247,15 @@ _BANK: dict[str, List[BaseQuestion]] = {
             "Sports", "medium", "USA",
             ["Canada", "UK", "Germany"]
         ),
+        MultipleChoiceQuestion(
+            "How many players are on a rugby union team?",
+            "Sports", "easy", "15", ["11", "13", "12"]
+        ),
+        MultipleChoiceQuestion(
+            "In which sport do you perform a 'smash'?",
+            "Sports", "easy", "Tennis",
+            ["Football", "Cricket", "Golf"]
+        ),
     ],
 
     "Technology": [
