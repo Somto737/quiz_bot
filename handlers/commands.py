@@ -54,7 +54,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         "• 🔴 Hard   — 3 pts\n\n"
         "🔥 *Streak Bonus*\n"
         "Answer 3+ in a row correctly to earn +1 bonus pt per answer!\n\n"
-        "📊 Your scores are saved for the /leaderboard — good luck!"
+        ""📊 Your scores are saved for the /leaderboard — good luck! 🍀""
     )
     await update.message.reply_text(text, parse_mode="Markdown")
 
