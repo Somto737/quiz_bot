@@ -30,3 +30,9 @@ A Telegram quiz bot written in Python that tests players across five knowledge c
 - `handlers/` — Telegram command handlers
 - `questions/` — Question bank (60+ questions)
 - `utils/` — Helper functions
+
+## Technologies Used
+- Python 3
+- python-telegram-bot
+- SQLite
+- python-dotenv
